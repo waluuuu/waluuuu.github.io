@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>WaluU</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://walu.space/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://walu.space/"/>
   <updated>2023-06-10T14:09:31.506Z</updated>
-  <id>http://example.com/</id>
+  <id>https://walu.space/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>walu</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/06/10/hello-world/"/>
-    <id>http://example.com/2023/06/10/hello-world/</id>
+    <link href="https://walu.space/2023/06/10/hello-world/"/>
+    <id>https://walu.space/2023/06/10/hello-world/</id>
     <published>2023-06-10T14:09:31.506Z</published>
     <updated>2023-06-10T14:09:31.506Z</updated>
     
