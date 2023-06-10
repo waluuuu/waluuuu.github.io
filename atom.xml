@@ -6,7 +6,7 @@
   <link href="https://walu.space/atom.xml" rel="self"/>
   
   <link href="https://walu.space/"/>
-  <updated>2023-06-10T14:09:31.506Z</updated>
+  <updated>2023-06-10T15:49:10.303Z</updated>
   <id>https://walu.space/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试图片</title>
+    <link href="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/"/>
+    <id>https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/</id>
+    <published>2023-06-10T15:37:45.000Z</published>
+    <updated>2023-06-10T15:49:10.303Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/../1500x500.jpg" alt="TEST" title="Magic Gardens"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../1500x500.jpg&quot; alt=&quot;TEST&quot; title=&quot;Magic Gardens&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="TEST" scheme="https://walu.space/tags/TEST/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
