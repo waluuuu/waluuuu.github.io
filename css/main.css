@@ -1855,7 +1855,7 @@ pre code {
   width: 100%;
 }
 a:not(.btn):hover {
-  color: #3a96dd;
+  color: #ff6347;
 }
 .post-gallery {
   display: flex;
@@ -2666,7 +2666,7 @@ body {
   background: url("/images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: 100% 100%;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
