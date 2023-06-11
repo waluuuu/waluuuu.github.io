@@ -45,13 +45,14 @@
     <published>2023-06-11T01:37:45.000Z</published>
     <updated>2023-06-11T04:06:33.637Z</updated>
     
-    <content type="html"><![CDATA[<!-- ![mafumafu](../image/1500x500.jpg "") --><p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mn>1</mn><mn>22</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{22}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>]]></content>
+    <content type="html"><![CDATA[<!-- ![mafumafu](../image/1500x500.jpg "") --><p><span class="math display">\[\frac{1}{22}\]</span></p>]]></content>
     
     
       
       
     <summary type="html">&lt;!-- ![mafumafu](../image/1500x500.jpg &quot;&quot;) --&gt;
-&lt;p class=&quot;katex-block&quot;&gt;&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mat</summary>
+&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;&#92;[&#92;frac{1}{22}&#92;]&lt;/span&gt;&lt;/p&gt;
+</summary>
       
     
     
@@ -70,12 +71,12 @@
     <published>2023-06-10T15:37:45.000Z</published>
     <updated>2023-06-11T07:28:57.676Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg" alt></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg&quot; alt&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg&quot;&gt;&lt;/p&gt;
 </summary>
       
     
