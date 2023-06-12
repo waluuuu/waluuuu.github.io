@@ -2328,6 +2328,13 @@ ul.breadcrumb li:last-child {
 .utterances {
   max-width: unset;
 }
+mjx-container[jax='CHTML'][display='true'],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container[display='true'] + br {
+  display: none;
+}
 .use-motion .animated {
   animation-fill-mode: none;
   visibility: inherit;
