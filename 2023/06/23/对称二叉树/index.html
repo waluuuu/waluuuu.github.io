@@ -21,28 +21,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"walu.space","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.17.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="article">
-<meta property="og:title" content="测试图片">
-<meta property="og:url" content="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/index.html">
+    <meta name="description" content="使用迭代判断二叉树是否对称">
+<meta property="og:type" content="article">
+<meta property="og:title" content="对称二叉树">
+<meta property="og:url" content="https://walu.space/2023/06/23/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/index.html">
 <meta property="og:site_name" content="WaluU">
+<meta property="og:description" content="使用迭代判断二叉树是否对称">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg">
-<meta property="article:published_time" content="2023-06-10T15:37:45.000Z">
-<meta property="article:modified_time" content="2023-06-18T14:21:22.459Z">
+<meta property="article:published_time" content="2023-06-23T15:12:44.000Z">
+<meta property="article:modified_time" content="2023-06-23T15:39:59.992Z">
 <meta property="article:author" content="walu">
-<meta property="article:tag" content="TEST">
+<meta property="article:tag" content="算法">
+<meta property="article:tag" content="二叉树">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg">
 
 
-<link rel="canonical" href="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/">
+<link rel="canonical" href="https://walu.space/2023/06/23/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/","path":"2023/06/10/测试图片/","title":"测试图片"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://walu.space/2023/06/23/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/","path":"2023/06/23/对称二叉树/","title":"对称二叉树"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>测试图片 | WaluU</title>
+<title>对称二叉树 | WaluU</title>
   
 
 
@@ -175,7 +176,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/">
+    <link itemprop="mainEntityOfPage" href="https://walu.space/2023/06/23/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -188,12 +189,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="测试图片 | WaluU">
+      <meta itemprop="name" content="对称二叉树 | WaluU">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          测试图片
+          对称二叉树
         </h1>
 
         <div class="post-meta-container">
@@ -203,15 +204,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
+      
 
-      <time title="Created: 2023-06-10 23:37:45" itemprop="dateCreated datePublished" datetime="2023-06-10T23:37:45+08:00">2023-06-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-06-18 22:21:22" itemprop="dateModified" datetime="2023-06-18T22:21:22+08:00">2023-06-18</time>
+      <time title="Created: 2023-06-23 23:12:44 / Modified: 23:39:59" itemprop="dateCreated datePublished" datetime="2023-06-23T23:12:44+08:00">2023-06-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -219,7 +214,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/TEST/" itemprop="url" rel="index"><span itemprop="name">TEST</span></a>
+          <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">算法</span></a>
         </span>
     </span>
 
@@ -239,8 +234,9 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p><img src="/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/1500x500.jpg"></p>
-
+    <div class="post-body" itemprop="articleBody"><p>使用迭代判断二叉树是否对称</p>
+<span id="more"></span>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * struct TreeNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     TreeNode *left;</span></span><br><span class="line"><span class="comment"> *     TreeNode *right;</span></span><br><span class="line"><span class="comment"> *     TreeNode() : val(0), left(nullptr), right(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">isSymmetric</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(root == <span class="literal">NULL</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            stack&lt;TreeNode*&gt; LeftTree;</span><br><span class="line">            stack&lt;TreeNode*&gt; RightTree;</span><br><span class="line">            TreeNode* left = root-&gt;left;</span><br><span class="line">            TreeNode* right = root-&gt;right;</span><br><span class="line">            LeftTree.<span class="built_in">push</span>(left);</span><br><span class="line">            RightTree.<span class="built_in">push</span>(right);</span><br><span class="line">            <span class="keyword">while</span>(!LeftTree.<span class="built_in">empty</span>() &amp;&amp; !RightTree.<span class="built_in">empty</span>())&#123;</span><br><span class="line">                TreeNode* tmp1 = LeftTree.<span class="built_in">top</span>();</span><br><span class="line">                TreeNode* tmp2 = RightTree.<span class="built_in">top</span>();</span><br><span class="line">                LeftTree.<span class="built_in">pop</span>();</span><br><span class="line">                RightTree.<span class="built_in">pop</span>();</span><br><span class="line">                <span class="keyword">if</span>(tmp1 == <span class="literal">NULL</span> &amp;&amp; tmp2 == <span class="literal">NULL</span>)&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span>(tmp1 == <span class="literal">NULL</span> || tmp2 == <span class="literal">NULL</span>)&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span>(tmp1-&gt;val == tmp2-&gt;val)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(tmp1-&gt;left != <span class="literal">NULL</span> &amp;&amp; tmp2-&gt;right != <span class="literal">NULL</span>)&#123;</span><br><span class="line">                        LeftTree.<span class="built_in">push</span>(tmp1-&gt;left);</span><br><span class="line">                        RightTree.<span class="built_in">push</span>(tmp2-&gt;right);</span><br><span class="line">                    &#125;<span class="keyword">else</span> <span class="keyword">if</span>(tmp1-&gt;left == <span class="literal">NULL</span> &amp;&amp; tmp2-&gt;right == <span class="literal">NULL</span>)&#123;</span><br><span class="line">                        ;</span><br><span class="line">                    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">if</span>(tmp1-&gt;right != <span class="literal">NULL</span> &amp;&amp; tmp2-&gt;left != <span class="literal">NULL</span>)&#123;</span><br><span class="line">                        LeftTree.<span class="built_in">push</span>(tmp1-&gt;right);</span><br><span class="line">                        RightTree.<span class="built_in">push</span>(tmp2-&gt;left);</span><br><span class="line">                    &#125;<span class="keyword">else</span> <span class="keyword">if</span>(tmp1-&gt;right == <span class="literal">NULL</span> &amp;&amp; tmp2-&gt;left == <span class="literal">NULL</span>)&#123;</span><br><span class="line">                        ;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">else</span>&#123;</span><br><span class="line">                        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -257,7 +253,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="https://walu.space/2023/06/10/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/" title="测试图片">https://walu.space/2023/06/10/测试图片/</a>
+      <a href="https://walu.space/2023/06/23/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/" title="对称二叉树">https://walu.space/2023/06/23/对称二叉树/</a>
   </li>
   <li class="post-copyright-license">
       <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -266,17 +262,21 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/TEST/" rel="tag"># TEST</a>
+              <a href="/tags/%E7%AE%97%E6%B3%95/" rel="tag"># 算法</a>
+              <a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="tag"># 二叉树</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2023/06/21/TraverseBinaryTree/" rel="prev" title="TraverseBinaryTree">
+                  <i class="fa fa-chevron-left"></i> TraverseBinaryTree
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/06/11/%E6%B5%8B%E8%AF%95%E5%85%AC%E5%BC%8F/" rel="next" title="测试公式">
-                  测试公式 <i class="fa fa-chevron-right"></i>
+                <a href="/2023/06/24/%E5%86%8D%E4%B9%9F%E4%B8%8D%E7%A2%B0%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4%E4%BA%86/" rel="next" title="再也不碰炉石传说了">
+                  再也不碰炉石传说了 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
