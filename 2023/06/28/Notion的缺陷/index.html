@@ -21,26 +21,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"walu.space","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.17.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="https://walu.space/tags/index.html">
+    <meta name="description" content="今天下午折腾了好几个小时的Notion ToDo List，发现很多我想要的功能都没有（；´д｀）ゞ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Notion的缺陷">
+<meta property="og:url" content="https://walu.space/2023/06/28/Notion%E7%9A%84%E7%BC%BA%E9%99%B7/index.html">
 <meta property="og:site_name" content="WaluU">
+<meta property="og:description" content="今天下午折腾了好几个小时的Notion ToDo List，发现很多我想要的功能都没有（；´д｀）ゞ">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-06-10T14:41:59.000Z">
-<meta property="article:modified_time" content="2023-06-15T09:46:13.891Z">
+<meta property="article:published_time" content="2023-06-28T09:05:14.000Z">
+<meta property="article:modified_time" content="2023-06-28T09:36:20.336Z">
 <meta property="article:author" content="walu">
+<meta property="article:tag" content="软件">
+<meta property="article:tag" content="Notion">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://walu.space/tags/">
+<link rel="canonical" href="https://walu.space/2023/06/28/Notion%E7%9A%84%E7%BC%BA%E9%99%B7/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":"","permalink":"https://walu.space/tags/index.html","path":"tags/index.html","title":"Tags"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://walu.space/2023/06/28/Notion%E7%9A%84%E7%BC%BA%E9%99%B7/","path":"2023/06/28/Notion的缺陷/","title":"Notion的缺陷"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Tags | WaluU
-</title>
+<title>Notion的缺陷 | WaluU</title>
   
 
 
@@ -100,7 +103,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -113,6 +116,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%A8%A1%E6%9D%BF%E8%87%AA%E5%8A%A8%E5%A1%AB%E5%85%85%E6%97%B6%E9%97%B4"><span class="nav-number">1.</span> <span class="nav-text"> 1. 模板自动填充时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-table-view"><span class="nav-number">2.</span> <span class="nav-text"> 2. Table View</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%9C%80%E5%90%8E%E7%BC%96%E8%BE%91%E6%97%B6%E9%97%B4"><span class="nav-number">3.</span> <span class="nav-text"> 3. 最后编辑时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%88%86%E7%BB%84%E4%B8%8B%E6%8B%89%E5%A1%AB%E5%85%85"><span class="nav-number">4.</span> <span class="nav-text"> 4. 分组&amp;下拉填充</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%9C%AA%E6%9D%A5%E4%BC%98%E5%8C%96"><span class="nav-number">5.</span> <span class="nav-text"> 5. 未来优化</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -162,43 +166,138 @@
 
     </div>
 
-    <div class="main-inner page posts-expand">
+    <div class="main-inner post posts-expand">
 
 
-    
-    
-    
-    <div class="post-block" lang="en"><header class="post-header">
+  
 
-<h1 class="post-title" itemprop="name headline">Tags
-</h1>
 
-<div class="post-meta-container">
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://walu.space/2023/06/28/Notion%E7%9A%84%E7%BC%BA%E9%99%B7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="walu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WaluU">
+      <meta itemprop="description" content="C++/Python/Lua">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Notion的缺陷 | WaluU">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Notion的缺陷
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2023-06-28 17:05:14 / Modified: 17:36:20" itemprop="dateCreated datePublished" datetime="2023-06-28T17:05:14+08:00">2023-06-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">软件</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
 </div>
 
-</header>
+        </div>
+      </header>
 
-      
-      
-      <div class="post-body"><div class="tag-cloud">
-  <div class="tag-cloud-title">
-    6 tags in total
-  </div>
-  <div class="tag-cloud-tags">
-    <a href="/tags/Notion/" style="font-size: 12px;" class="tag-cloud-0">Notion</a> <a href="/tags/TEST/" style="font-size: 30px;" class="tag-cloud-10">TEST</a> <a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 21px;" class="tag-cloud-5">二叉树</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 12px;" class="tag-cloud-0">游戏</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 30px;" class="tag-cloud-10">算法</a> <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 12px;" class="tag-cloud-0">软件</a>
-  </div>
-</div>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>今天下午折腾了好几个小时的Notion ToDo List，发现很多我想要的功能都没有（；´д｀）ゞ</p>
+<span id="more"></span>
+<h3 id="1-模板自动填充时间"><a class="markdownIt-Anchor" href="#1-模板自动填充时间"></a> 1. 模板自动填充时间</h3>
+<p>Notion的模板虽然可以设置自动重复，但是没法做到自动填充当前时间。背单词、刷题等任务，是我每天都会做的，所以我会让Notion模板每天都创建相同的任务，但扯淡的是，他不支持自动更新时间，你在模板上写的是哪天，重复创建每日任务的时候，时间写的还是那天，需要自己把时间改成今天</p>
+<h3 id="2-table-view"><a class="markdownIt-Anchor" href="#2-table-view"></a> 2. Table View</h3>
+<p>一个页面不能放两个Table View。全部的任务都放在数据库中，通过创建Table View并且设置Filter可以筛选出自己想要的内容，但Notion不支持一个页面中有多个Table View，所以，要想在一个页面同时看到两种相互冲突的任务，只能再加一个变量并且使用group进行分类</p>
+<h3 id="3-最后编辑时间"><a class="markdownIt-Anchor" href="#3-最后编辑时间"></a> 3. 最后编辑时间</h3>
+<p>Notion不支持获取某一列的最后编辑时间</p>
+<h3 id="4-分组下拉填充"><a class="markdownIt-Anchor" href="#4-分组下拉填充"></a> 4. 分组&amp;下拉填充</h3>
+<p>当使用group进行分组后，下拉填充功能又不好用了🤬</p>
+<h3 id="5-未来优化"><a class="markdownIt-Anchor" href="#5-未来优化"></a> 5. 未来优化</h3>
+<p>希望Notion将来可以内置Python解释器，或者微软直接Copy一个Notion(<a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/microsoft-loop">微软已经在这么做了</a>)，让他的DataBase、Formula更加强大</p>
 
-      </div>
-      
-      
-      
     </div>
 
     
     
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>walu
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="https://walu.space/2023/06/28/Notion%E7%9A%84%E7%BC%BA%E9%99%B7/" title="Notion的缺陷">https://walu.space/2023/06/28/Notion的缺陷/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E8%BD%AF%E4%BB%B6/" rel="tag"># 软件</a>
+              <a href="/tags/Notion/" rel="tag"># Notion</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/06/24/%E5%86%8D%E4%B9%9F%E4%B8%8D%E7%A2%B0%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4%E4%BA%86/" rel="prev" title="再也不碰炉石传说了">
+                  <i class="fa fa-chevron-left"></i> 再也不碰炉石传说了
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
 
 
+
+
+
+
+    <div class="comments utterances-container"></div>
 </div>
   </main>
 
