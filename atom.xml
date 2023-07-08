@@ -6,7 +6,7 @@
   <link href="https://walu.space/atom.xml" rel="self"/>
   
   <link href="https://walu.space/"/>
-  <updated>2023-07-05T14:59:36.261Z</updated>
+  <updated>2023-07-08T08:37:53.192Z</updated>
   <id>https://walu.space/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>鬼泣五一周目</title>
+    <link href="https://walu.space/2023/07/08/%E9%AC%BC%E6%B3%A3%E4%BA%94%E4%B8%80%E5%91%A8%E7%9B%AE/"/>
+    <id>https://walu.space/2023/07/08/%E9%AC%BC%E6%B3%A3%E4%BA%94%E4%B8%80%E5%91%A8%E7%9B%AE/</id>
+    <published>2023-07-08T08:21:20.000Z</published>
+    <updated>2023-07-08T08:37:53.192Z</updated>
+    
+    <content type="html"><![CDATA[<p>鬼泣五一周目达成 <span id="more"></span> <img src="/2023/07/08/%E9%AC%BC%E6%B3%A3%E4%BA%94%E4%B8%80%E5%91%A8%E7%9B%AE/DevilMayCry5.png" alt="一周目"></p><p>鬼泣五中的招式众多，可以做出非常华丽的动作，单从连招来看，非常耐玩。但剧情有点短，两三句话就能说清楚，还没看过瘾，主线已经结束了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;鬼泣五一周目达成&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="娱乐" scheme="https://walu.space/categories/%E5%A8%B1%E4%B9%90/"/>
+    
+    
+    <category term="游戏" scheme="https://walu.space/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="娱乐" scheme="https://walu.space/tags/%E5%A8%B1%E4%B9%90/"/>
+    
+  </entry>
   
   <entry>
     <title>二叉搜索树中第K小元素</title>
