@@ -1494,7 +1494,7 @@ pre code {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: 90%;
 }
 @media (max-width: 767px) {
   .footer-inner {
@@ -1503,12 +1503,12 @@ pre code {
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 1160px;
+    width: 72%;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 73%;
+    width: 55%;
   }
 }
 .use-motion .footer {
@@ -2356,7 +2356,7 @@ header.header {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: 90%;
 }
 @media (max-width: 767px) {
   .main {
@@ -2365,12 +2365,12 @@ header.header {
 }
 @media (min-width: 1200px) {
   .main {
-    width: 1160px;
+    width: 72%;
   }
 }
 @media (min-width: 1600px) {
   .main {
-    width: 73%;
+    width: 55%;
   }
 }
 @media (max-width: 991px) {
@@ -2667,4 +2667,43 @@ body {
   -o-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
+}
+/* 导航菜单吸附置顶 */
+.header {
+  position: sticky;
+  top: 10px;
+}
+.sidebar {
+  position: sticky;
+  top: 417px;
+}
+/* 顶部边距 */
+.header,
+.main-inner {
+  margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .header,
+  .main-inner {
+    margin-top: 0;
+  }
+}
+/* 侧边圆角 */
+header.header,
+.sidebar-inner {
+  border-radius: 8px;
+}
+.site-brand-container {
+  border-radius: 8px 8px 0 0;
+}
+@media (max-width: 767px) {
+  .site-brand-container {
+    border-radius: 0 0 8px 8px;
+  }
+}
+/* 站点标题背景 */
+.site-brand-container {
+  background: url("/images/siderbar5.png");
+  background-position: 70% 20%;
+  background-size: cover;
 }
