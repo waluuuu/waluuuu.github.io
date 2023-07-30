@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://walu.space/about/index.html</loc>
+    
+    <lastmod>2023-07-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://walu.space/2023/07/17/%E8%83%A7%E6%9C%88/</loc>
     
     <lastmod>2023-07-30</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://walu.space/2023/07/30/%E9%AB%98%E5%B3%B0%E7%9B%B8%E5%A3%B0%E8%AE%B0%E5%BD%95/</loc>
-    
-    <lastmod>2023-07-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://walu.space/about/index.html</loc>
     
     <lastmod>2023-07-30</lastmod>
     
