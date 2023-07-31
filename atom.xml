@@ -6,7 +6,7 @@
   <link href="https://walu.space/atom.xml" rel="self"/>
   
   <link href="https://walu.space/"/>
-  <updated>2023-07-31T01:20:20.331Z</updated>
+  <updated>2023-07-31T07:44:52.337Z</updated>
   <id>https://walu.space/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSL2时间错误</title>
+    <link href="https://walu.space/2023/07/31/WSL2%E6%97%B6%E9%97%B4%E9%94%99%E8%AF%AF/"/>
+    <id>https://walu.space/2023/07/31/WSL2%E6%97%B6%E9%97%B4%E9%94%99%E8%AF%AF/</id>
+    <published>2023-07-31T07:43:37.000Z</published>
+    <updated>2023-07-31T07:44:52.337Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p><a href="https://github.com/microsoft/WSL/issues/5324">https://github.com/microsoft/WSL/issues/5324</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/microsoft/WSL/issues/5324&quot;&gt;https://github.com/microsoft/WSL/issues/5324&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>高峰相声记录</title>
