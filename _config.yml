@@ -1,0 +1,31 @@
+title: WalUU
+description: Personal notes, sketches, and technical fragments.
+url: "https://walu.space"
+baseurl: ""
+lang: zh-CN
+timezone: Asia/Shanghai
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+comments:
+  repo: waluuuu/waluuuu.github.io
+  issue_term: pathname
+  label: comment
+  theme: github-light
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+  - scope:
+      path: ""
+    values:
+      layout: default
+      comments: false
+
+exclude:
+  - README.md
