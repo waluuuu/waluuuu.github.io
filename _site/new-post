@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+title="${1:-}"
+slug="${2:-}"
+
+if [ -z "$title" ]; then
+  echo "用法: ./new-post \"文章标题\" [english-slug]"
+  echo "例如: ./new-post \"我的第一篇文章\" first-post"
+  exit 1
+fi
+
+today="$(date +%F)"
+now="$(date '+%Y-%m-%d %H:%M:%S %z')"
+
+if [ -z "$slug" ]; then
+  slug="$(echo "$title" \
+    | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//')"
+fi
+
+if [ -z "$slug" ]; then
+  slug="post-$(date +%H%M%S)"
+fi
+
+mkdir -p _posts
+
+file="_posts/${today}-${slug}.md"
+
+if [ -e "$file" ]; then
+  echo "文件已存在: $file"
+  exit 1
+fi
+
+template="_templates/post.md"
+
+mkdir -p _templates
+
+if [ ! -e "$template" ]; then
+  cat > "$template" <<'EOF'
+---
+layout: post
+title: "{{title}}"
+date: {{date}}
+tags: []
+---
+
+这里开始写正文。
+EOF
+fi
+
+sed \
+  -e "s|{{title}}|$title|g" \
+  -e "s|{{date}}|$now|g" \
+  "$template" > "$file"
+
+echo "已创建: $file"

@@ -6,7 +6,7 @@ lang: zh-CN
 timezone: Asia/Shanghai
 
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 comments:
   repo: waluuuu/waluuuu.github.io
