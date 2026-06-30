@@ -4,8 +4,7 @@ title: Home
 
 <section class="intro">
   <p class="eyebrow">WalUU</p>
-  <h1>写一点正在想的东西。</h1>
-  <p class="lede">这里会放新的文章、笔记和一些不必太正式的记录。旧内容已经清空，从这里重新开始。</p>
+  <h1>写一点正在学的东西。</h1>
 </section>
 
 <section class="post-list" aria-labelledby="posts-title">
